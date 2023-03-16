@@ -1,0 +1,79 @@
+linux directory structure
+bin 
+boot
+dev
+home: user directory home path
+etc :configuration file
+media,mnt: pendrive mount 
+root: 
+run:
+sbin:
+sys: sys configuration
+tmp: temporary files
+usr: local installed software
+var: var data /log information
+
+BASIC COMMANDS
+
+touch- create empty file
+mkdir- new directory
+cat- to see file content n create a file
+ls-list files n directories
+cd- change directory
+date- date n change sys date
+cal-
+pwd-present work directory
+who am i-
+ls -ltr
+cp 
+rm 
+mv 
+mdir 
+time 
+exit 
+diff 
+cmp
+grep 
+regular expression 
+su
+more
+sort -u -r
+sort -n  -k
+head -n 5,-n-5,-4 
+tail -n5,-f 10 ,-f -s 5 
+tail -f file1 file2 
+
+
+
+tr :upper to lower ,lower to upper 
+wc 
+
+
+free-m,free -g ,free -h,free -k ,free -s 2,free -c 3
+df -h,df -hT, df -m , df -i,df -t ext4, df -a, df -T 
+du -a ,du -ah,du -sh, du -cbha --time 
+fdisk -l,fdisk -v,fdisk/dev/sba 
+parted /dev/sda 
+
+
+inodes STUDY\
+
+man 
+whereis 
+whatis 
+help 
+command --help 
+info 
+
+
+whoami 
+w 
+id,id -Z 
+who -r,who -q,who -u,who -b 
+cat /etc/passwd 
+uname -a|-r|-v|-s |-i|-n |-o
+hostname -f|-i 
+hostnameectl set-hostname 
+hostnamectl status
+
+
